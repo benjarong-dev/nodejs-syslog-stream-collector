@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-syslog-stream-collector",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js RFC 3164/5424 UDP Syslog collector, burst correlator, NDJSON archiver, and SSE streaming API.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test tests/syslog.test.mjs"
+  },
+  "license": "MIT"
+}
